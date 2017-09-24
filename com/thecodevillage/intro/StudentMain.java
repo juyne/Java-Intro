@@ -8,6 +8,8 @@ import java.util.Scanner;
  * Created by June on 9/23/2017.
  */
 public class StudentMain {
+
+
     public static void main(String[]args) {
         Scanner scanner=new Scanner(System.in);
 
@@ -53,7 +55,8 @@ public class StudentMain {
 
 
         System.out.println("enter your age :" );
-        june.setAge  (scanner.nextInt());
+        june.setAge(scanner.nextInt());
+
 
         System.out.println("enter your college :");
         june.setCollege(scanner.next());
